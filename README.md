@@ -37,19 +37,22 @@ Flow control: None
 ```text
 help
 led blink     --miganie dioda stm-ki
-led wewn on   --zaswiecenie diody stm-ki
+led wewn on   --zaświecenie diody stm-ki
 led wewn off  -- wyłączenie diody stm-ki
-led zewn on   --zaswiecenie diody podlaczonej zewnetrznie do PA1
-led zewn off  --wylaczenie diody zewnetrznej
+led zewn on   --zaświecenie diody podłączonej zewnętrznie do PA1 STM32-NUCLEO411RE
+led zewn off  --wyłączenie diody zewnetrznej
 ```
 
 ## Uruchomienie
 
+```text
 sklonuj repozytorium do katalogu roboczego
 Otwórz projekt w STM32CubeIDE.
 Zbuduj projekt.
-Wgraj program na STM32.
+Wgraj program na STM32.(Mozliwe że projekt od razu po wgraniu nie bedzie działać należy wtedy wyłączyć debugger i zobaczyć czy wtedy PuTTy zadziała :D )
 Otwórz PuTTY.
 Wybierz odpowiedni port COM.
 Ustaw UART na 115200 8N1.
 Wpisz help.
+Wpisuj komendy ktore chcesz zobaczyc
+```
