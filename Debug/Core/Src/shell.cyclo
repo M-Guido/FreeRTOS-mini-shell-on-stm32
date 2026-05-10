@@ -1,0 +1,8 @@
+../Core/Src/shell.c:19:6:shell_print	1
+../Core/Src/shell.c:25:6:HAL_UART_RxCpltCallback	9
+../Core/Src/shell.c:49:6:blink_task	1
+../Core/Src/shell.c:60:13:cmd_help	1
+../Core/Src/shell.c:70:13:cmd_led	8
+../Core/Src/shell.c:106:13:cmd_status	1
+../Core/Src/shell.c:117:13:shell_process	5
+../Core/Src/shell.c:135:6:shell_task	3

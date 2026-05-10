@@ -1,0 +1,8 @@
+../Core/Src/shell.c:19:6:shell_print	16	static
+../Core/Src/shell.c:25:6:HAL_UART_RxCpltCallback	24	static,ignoring_inline_asm
+../Core/Src/shell.c:49:6:blink_task	72	static
+../Core/Src/shell.c:60:13:cmd_help	8	static
+../Core/Src/shell.c:70:13:cmd_led	32	static
+../Core/Src/shell.c:106:13:cmd_status	520	static
+../Core/Src/shell.c:117:13:shell_process	16	static
+../Core/Src/shell.c:135:6:shell_task	88	static
