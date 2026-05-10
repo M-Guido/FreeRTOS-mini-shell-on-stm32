@@ -34,14 +34,17 @@ Flow control: None
 
 ## Komendy 
 
+```text
 help
 led blink     --miganie dioda stm-ki
 led wewn on   --zaswiecenie diody stm-ki
 led wewn off  -- wyłączenie diody stm-ki
 led zewn on   --zaswiecenie diody podlaczonej zewnetrznie do PA1
 led zewn off  --wylaczenie diody zewnetrznej
+```
 
 ## Uruchomienie
+
 sklonuj repozytorium do katalogu roboczego
 Otwórz projekt w STM32CubeIDE.
 Zbuduj projekt.
